@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retail-promo-planner"
+version = "1.0.0"
+description = "Autonomous Agentic Promotion Planner for Retail - ET AI Hackathon Problem 3"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=2.4.0",
+    "pydantic>=2.5.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+promo-planner = "promo_planner.main:cli_main"

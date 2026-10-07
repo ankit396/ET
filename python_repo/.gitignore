@@ -1,0 +1,20 @@
+# Environment variables
+.env
+*.env
+
+# Python build & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Output files
+strategy_output.json
+*.log

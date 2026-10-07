@@ -1,0 +1,6 @@
+{
+  "name": "Autonomous Promotion Planner AI - ET AI Hackathon",
+  "description": "Agentic AI solution for Retail Autonomous Promotion Planning covering discount optimization, cannibalization, inventory constraints, competitor awareness, geo-targeting, and pre-launch simulation with ready-to-host Python repository.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
